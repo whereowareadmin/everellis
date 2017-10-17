@@ -10,6 +10,7 @@ atlassian*
 /.idea
 /.gitattributes
 /app/config_sandbox
+!/app/design/*
 /app/etc/config.php
 /app/etc/env.php
 /app/code/Magento/TestModule*
