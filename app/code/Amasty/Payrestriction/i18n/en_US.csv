@@ -1,0 +1,78 @@
+"Save and Continue Edit","Save and Continue Edit"
+Rule,Rule
+"Apply the rule only if the following conditions are met (leave blank for all products)","Apply the rule only if the following conditions are met (leave blank for all products)"
+Conditions,Conditions
+Backorders,Backorders
+"Apply the rule to","Apply the rule to"
+"All orders","All orders"
+"Backorders only","Backorders only"
+"Non backorders","Non backorders"
+"Days and Time","Days and Time"
+"Days of the week","Days of the week"
+"Leave empty or select all to apply the rule every day","Leave empty or select all to apply the rule every day"
+"Time From:","Time From:"
+"Time To:","Time To:"
+"Days & Time","Days & Time"
+General,General
+Name,Name
+Status,Status
+Methods,Methods
+Restrictions,Restrictions
+"Apply In","Apply In"
+"Admin Area","Admin Area"
+No,No
+Yes,Yes
+Stores,Stores
+"Leave empty or select all to apply the rule to any store","Leave empty or select all to apply the rule to any store"
+"Apply For","Apply For"
+"Customer Groups","Customer Groups"
+"Leave empty or select all to apply the rule to any group","Leave empty or select all to apply the rule to any group"
+"Stores & Customer Groups","Stores & Customer Groups"
+"Rule Configuration","Rule Configuration"
+title,title
+"Payment Restrictions","Payment Restrictions"
+"Record(s) have been updated.","Record(s) have been updated."
+"Record does not exist","Record does not exist"
+"Payment Restriction has been successfully deleted","Payment Restriction has been successfully deleted"
+"Please select a rule to duplicate.","Please select a rule to duplicate."
+"The rule has been duplicated. Please feel free to activate it.","The rule has been duplicated. Please feel free to activate it."
+"This item no longer exists.","This item no longer exists."
+Rules,Rules
+"Record(s) were successfully deleted","Record(s) were successfully deleted"
+"Payment Restriction has been successfully saved","Payment Restriction has been successfully saved"
+"Unable to find a record to save","Unable to find a record to save"
+Sunday,Sunday
+Monday,Monday
+Tuesday,Tuesday
+Wednesday,Wednesday
+Thursday,Thursday
+Friday,Friday
+Saturday,Saturday
+"Address Line","Address Line"
+City,City
+contains,contains
+"does not contain","does not contain"
+"starts from","starts from"
+"ends with","ends with"
+"Please choose a condition to add.","Please choose a condition to add."
+"Products subselection","Products subselection"
+"Conditions combination","Conditions combination"
+"Cart Attribute","Cart Attribute"
+"total quantity","total quantity"
+"total amount","total amount"
+"total weight","total weight"
+Active,Active
+Inactive,Inactive
+Duplicate,Duplicate
+Edit,Edit
+"Restricts For All","Restricts For All"
+"Restricts In All","Restricts In All"
+"Add Rule","Add Rule"
+Activate,Activate
+"Are you sure you wan't to activate selected items?","Are you sure you wan't to activate selected items?"
+Inactivate,Inactivate
+"Are you sure you wan't to inactivate selected items?","Are you sure you wan't to inactivate selected items?"
+Delete,Delete
+"Delete selected items?","Delete selected items?"
+ID,ID
+"Store Views","Store Views"
