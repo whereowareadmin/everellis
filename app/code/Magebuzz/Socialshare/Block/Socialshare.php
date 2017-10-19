@@ -8,7 +8,7 @@ namespace Magebuzz\Socialshare\Block;
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\Pricing\Helper\Data as PricingHelper;
 use Magento\Framework\Registry;
-use Magento\Framework\View\Element\Template\Context;
+//use Magento\Framework\View\Element\Template\Context;
 use Magento\Store\Model\ScopeInterface;
 
 class Socialshare extends \Magento\Framework\View\Element\Template
@@ -22,13 +22,13 @@ class Socialshare extends \Magento\Framework\View\Element\Template
         Registry $coreRegistry,
         PricingHelper $PricingHelper,
         ScopeConfigInterface $scopeConfig,
-        Context $context,
+        //Context $context,
         array $data = array()
     ) {
         $this->_scopeConfig = $scopeConfig;
         $this->_priceHelper = $PricingHelper;
         $this->_coreRegistry = $coreRegistry;
-        parent::__construct($context, $data);
+        parent::__construct(Magento\Framework\View\Element\Template\Context, $data);
         $this->_product = $this->_coreRegistry->registry('current_product');
     }
 
