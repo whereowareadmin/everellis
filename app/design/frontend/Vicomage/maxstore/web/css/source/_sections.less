@@ -1,0 +1,145 @@
+// /**
+//  * Copyright © 2015 Magento. All rights reserved.
+//  * See COPYING.txt for license details.
+//  */
+
+//
+//  Common
+//  _____________________________________________
+
+& when (@media-common = true) {
+    .product.data.items {
+        .lib-data-accordion();
+        border-bottom: @tab-control__border-width solid @tab-control__border-color;
+        margin-bottom: @indent__base;
+        margin-left: -@layout__width-xs-indent;
+        margin-right: -@layout__width-xs-indent;
+        .item.title {
+            a {
+                position: relative;
+                .lib-icon-font(
+                    @_icon-font-content: @icon-down,
+                    @_icon-font-size: @font-size__base,
+                    @_icon-font-line-height: @icon-font__line-height,
+                    @_icon-font-color: @icon-font__color,
+                    @_icon-font-color-hover: @icon-font__color-hover,
+                    @_icon-font-color-active: @icon-font__color-active,
+                    @_icon-font-margin: @icon-font__margin,
+                    @_icon-font-vertical-align: @icon-font__vertical-align,
+                    @_icon-font-position: after,
+                    @_icon-font-display: false
+                );
+                &:after {
+                    position: absolute;
+                    right: @accordion-control__padding-right;
+                    top: @accordion-control__padding-top;
+                }
+            }
+            &.active a:after {
+                content: @icon-up;
+            }
+        }
+        .value p:last-child {
+            margin-bottom: 0;
+        }
+        .table-wrapper {
+            margin: 0;
+        }
+		 > .item.content {
+			background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+			line-height: 24px;
+		}
+    }
+}
+
+//
+//  Desktop
+//  _____________________________________________
+
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+    .product.data.items {
+        border-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+		text-align: center;
+        .item.title a:after {
+            display: none;
+        }
+
+        > .item {
+            &.title {
+                display: inline-block;
+				float: none;
+				margin: 0 1px 0 0;
+				padding: 12px 25px 11px;
+				position: relative;
+				width: auto;
+				&::after {
+					background: #dddddd none repeat scroll 0 0;
+					content: "";
+					height: 20px;
+					left: -1px;
+					position: absolute;
+					top: 10px;
+					width: 1px;
+				}
+				&:first-child::after {
+					display: none;
+				}
+                > .switch {
+                    border: 0 none;
+					font-size: 18px;
+					font-weight: 600;
+					height: auto;
+					letter-spacing: 0;
+					line-height: 1;
+					padding: 1px 0;
+					position: relative;
+					text-transform: capitalize;
+					&::after {
+						content: "";
+					}
+					&:hover::after {
+						opacity: 1;
+						display: block;
+						visibility: visible;
+					}
+					&:hover {
+						color: @theme-color;
+					}
+                }
+                &.active {
+                    > .switch {
+                        &, &:focus, &:hover {
+                            color: @theme-color;
+                        }
+						&::after {
+							opacity: 1;
+							display: block;
+							visibility: visible;
+							content: "";
+						}
+						&::before {
+							border: 1px solid;
+							bottom: -1px;
+							content: "";
+							height: 2px;
+							left: 0;
+							position: absolute;
+							right: 0;
+							width: auto;
+						}
+                    }
+                }
+            }
+            &.content {
+                float: right;
+				margin-left: -100%;
+				margin-top: 40px;
+				padding: 20px 0;
+				text-align: left;
+				width: 100%;
+            }
+        }
+    }
+}

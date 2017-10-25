@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <slider>
+    <item>
+      <name><![CDATA[Home1 Slide]]></name>
+      <identity><![CDATA[home1-slide]]></identity>
+      <slider_params><![CDATA[{"1":{"image":"\/b\/g\/bg-slide-1.jpg","position":"1","url":"","description":"<div class=\"slide-caption slide-caption-center\">\r\n\t<div class=\"text-slide text-slide2\">\r\n\t\t<h2 class=\"caption2\">Everything You Need<\/h2>\r\n\t\t<h2 class=\"caption3\">To Start A New Online Store<\/h2>\r\n\t\t<h3 class=\"caption4\"><a class=\"btn-shop\" href=\"#\" tabindex=\"0\">Purchase Maxstore<\/a><\/h3>\r\n\t<\/div>\r\n<\/div>"},"2":{"image":"\/b\/g\/bg-slide-2_1.jpg","position":"1","url":"","description":"<div class=\"slide-caption slide-caption-center\">\r\n\t<div class=\"text-slide text-slide2\">\r\n\t\t<h3 class=\"caption1\">Get a new look!<\/h3>\r\n\t\t<h1 class=\"caption2\">WOMen\u2019s SUNGLASSES<\/h1>\r\n\t\t<h2 class=\"caption3\">COLLECTION 2017<\/h2>\r\n\t\t<h3 class=\"caption4\"><a class=\"btn-shop\" href=\"#\" tabindex=\"0\">Shop Now<\/a><\/h3>\r\n\t<\/div>\r\n<\/div>"},"3":{"image":"\/b\/g\/bg-slide-3.jpg","position":"1","url":"","description":"<div class=\"slide-caption slide-caption-right\">\r\n\t<div class=\"text-slide text-slide2\">\r\n\t\t<h3 class=\"caption1\">The Hipster style<\/h3>\r\n\t\t<h1 class=\"caption2\">Men\u2019s Wear Summer<\/h1>\r\n\t\t<h2 class=\"caption3\">LOOKBOOK<\/h2>\r\n\t\t<h3 class=\"caption4\"><a class=\"btn-shop\" href=\"#\" tabindex=\"0\">Shop the look<\/a><\/h3>\r\n\t<\/div>\r\n<\/div>"}}]]></slider_params>
+      <width><![CDATA[1920]]></width>
+      <height><![CDATA[700]]></height>
+      <number><![CDATA[3]]></number>
+      <status><![CDATA[1]]></status>
+      <navigation><![CDATA[1]]></navigation>
+      <pagercontrol><![CDATA[1]]></pagercontrol>
+      <lazyload><![CDATA[1]]></lazyload>
+      <speed><![CDATA[]]></speed>
+      <auto_play><![CDATA[0]]></auto_play>
+      <autoplay_speed><![CDATA[]]></autoplay_speed>
+      <stop_on_hover><![CDATA[0]]></stop_on_hover>
+      <loop><![CDATA[0]]></loop>
+    </item>
+  </slider>
+</root>

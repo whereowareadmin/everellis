@@ -1,0 +1,53 @@
+& when (@media-common = true) {
+	.vicomage-quickview-catalog-product-view {
+	  .page-wrapper .page-main {margin: 20px 0;}
+	  .reviews-actions .add {display: none;}
+	  .columns .column.main{
+		  padding-bottom: 0;
+	  }
+	  .sidebar{
+			display:none;
+		}
+		.content-detail {
+			width: 100%;
+		}
+	  .product-addit {
+			margin-top: 30px;
+		}
+	  .product.media{
+		  margin-bottom: 0;
+	  }
+	  .product-tab-bg {
+		display: none;
+	}
+	  .zoomContainer {
+			display: none;
+		}
+	}
+	.box-gotoproduct #product-gotoproduct-button {
+		font-size: 1.5rem;
+		font-weight: 600;
+		text-align: center;
+		width: auto;
+	}
+	
+}
+
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+
+  .vicomage-quickview-catalog-product-view {
+    &.catalog-product-view .breadcrumbs,
+    &.catalog-product-view .columns,
+    &.catalog-product-view .page.messages,
+    &.catalog-product-view .page-title-wrapper {
+      max-width: 100%;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+}
+
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__s) {
+
+
+}

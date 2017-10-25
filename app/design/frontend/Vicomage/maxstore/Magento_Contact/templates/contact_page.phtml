@@ -1,0 +1,12 @@
+<?php
+    $contacts_config = $this->helper('Vicomage\General\Helper\Data')->getConfig('vicomage_general_config/contacts');
+    $_infoblock = $contacts_config['infoblock'];
+?>
+<div class="contact-content">
+	<div class="row">
+		<div class="col-sm-12 contact-info">
+			<?php echo $_infoblock; ?>
+		</div>
+		<div class="col-sm-12"><?php echo $this->getChildHtml('contactForm')?></div>
+	</div>
+</div>

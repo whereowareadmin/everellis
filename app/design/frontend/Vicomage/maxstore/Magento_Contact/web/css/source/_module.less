@@ -1,0 +1,65 @@
+// /**
+//  * Copyright © 2015 Magento. All rights reserved.
+//  * See COPYING.txt for license details.
+//  */
+& when (@media-common = true) {
+    .contact-index-index {
+        .page-title-wrapper {
+            display: none;
+        }
+        .fieldset > .legend, .contact-info .contacts-title {
+            font-size: 20px;
+            margin-bottom: 20px;
+            font-weight: 300;
+            letter-spacing: 0;
+            text-transform: none;
+        }
+		.page-wrapper .page-bottom {
+			max-width: 100%;
+			padding: 0;
+			width: 100%;
+		}
+    }
+	.contact-content {
+		.field {
+			margin-bottom: 20px;
+			input {
+				height: 45px;
+			}
+		}
+		.contact-info {
+			.contact-box {
+				margin-bottom: 20px;
+				padding: 30px 0;
+				text-align: center;
+			}
+			.title {
+				color: #222222;
+				display: block;
+				font-size: 14px;
+				font-weight: 600;
+				text-transform: capitalize;
+				margin: 0 0 10px;
+				i {
+					font-size: 16px;
+					margin-right: 10px;
+				}
+			}
+		}
+		textarea {
+			border-color: #dddddd;
+			height: 160px;
+		}
+
+	}
+	.contact-map {
+		margin: 0;
+		iframe {
+			width: 100%;
+		}
+	}
+}
+
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__m) {
+    
+}

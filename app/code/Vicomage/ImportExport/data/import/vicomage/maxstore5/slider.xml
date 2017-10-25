@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <slider>
+    <item>
+      <name><![CDATA[Home5 Slide]]></name>
+      <identity><![CDATA[home5-slide]]></identity>
+      <slider_params><![CDATA[{"1":{"image":"\/s\/l\/slide1_2.jpg","position":"1","url":"","description":"<div class=\"slide-caption slide-caption-center\">\r\n\t<div class=\"text-slide text-slide2\">\r\n\t\t<h3 class=\"caption1 caption-idea\">Realize your idea!<\/h3>\r\n\t\t<h2 class=\"caption2\">10 inspiring ideas for<\/h2>\r\n\t\t<h2 class=\"caption3\">pedant light<\/h2>\r\n\t<\/div>\r\n<\/div>"},"2":{"image":"\/s\/l\/slide2_2.jpg","position":"1","url":"","description":"<div class=\"slide-caption slide-caption-left\">\r\n\t<div class=\"text-slide text-slide2\">\r\n\t\t<h3 class=\"caption1\">Furniture Design<\/h3>\r\n\t\t<h2 class=\"caption2\">New way to design<\/h2>\r\n\t\t<h2 class=\"caption3\">your home<\/h2>\r\n\t\t<h3 class=\"caption4\"><a class=\"btn-shop\" href=\"#\" tabindex=\"0\">Shop Now<\/a><a class=\"view-look\" href=\"#\" tabindex=\"0\">View Lookbook<\/a><\/h3>\r\n\t<\/div>\r\n<\/div>"},"3":{"image":"\/s\/l\/slide3_2.jpg","position":"1","url":"","description":"<div class=\"slide-caption slide-caption-center\">\r\n\t<div class=\"text-slide text-slide2\">\r\n\t\t<h3 class=\"caption1 caption-sale\">Huge Sale<\/h3>\r\n\t\t<h1 class=\"caption2 caption-big\">Saving <span>75% <\/span>off<\/h1>\r\n\t\t<h2 class=\"caption3 caption-code\">Use code Z7922G8 when purchase!<\/h2>\r\n\t\t<h3 class=\"caption4\"><a class=\"btn-shop\" href=\"#\" tabindex=\"0\">Shop Now<\/a><a class=\"view-look\" href=\"#\" tabindex=\"0\">View Lookbook<\/a><\/h3>\r\n\t<\/div>\r\n<\/div>"}}]]></slider_params>
+      <width><![CDATA[1920]]></width>
+      <height><![CDATA[700]]></height>
+      <number><![CDATA[3]]></number>
+      <status><![CDATA[1]]></status>
+      <navigation><![CDATA[1]]></navigation>
+      <pagercontrol><![CDATA[1]]></pagercontrol>
+      <lazyload><![CDATA[1]]></lazyload>
+      <speed><![CDATA[]]></speed>
+      <auto_play><![CDATA[0]]></auto_play>
+      <autoplay_speed><![CDATA[]]></autoplay_speed>
+      <stop_on_hover><![CDATA[0]]></stop_on_hover>
+      <loop><![CDATA[0]]></loop>
+    </item>
+  </slider>
+</root>

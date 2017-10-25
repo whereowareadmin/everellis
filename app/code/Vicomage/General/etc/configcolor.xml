@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <vicomage_color_config>
+            <general_config>
+                <config_as_developer>1</config_as_developer>
+            </general_config>
+            <config_color_base>
+                <enable_base_color>1</enable_base_color>
+                <base_color>1</base_color>
+            </config_color_base>
+            <config_color_header>
+                <enable_header_color>1</enable_header_color>
+                <header_color>1</header_color>
+            </config_color_header>
+            <config_color_content>
+                <enable_content_color>1</enable_content_color>
+                <content_color>1</content_color>
+            </config_color_content>
+            <config_color_footer>
+                <enable_footer_color>1</enable_footer_color>
+                <footer_color>1</footer_color>
+                <footer_type2_heading>1</footer_type2_heading>
+                <enable_footer2_color>1</enable_footer2_color>
+                <footer_type2>1</footer_type2>
+                <footer_type3_heading>1</footer_type3_heading>
+                <enable_footer3_color>1</enable_footer3_color>
+                <footer_type3>1</footer_type3>
+                <footer_type4_heading>1</footer_type4_heading>
+                <enable_footer4_color>1</enable_footer4_color>
+                <footer_type4>1</footer_type4>
+            </config_color_footer>
+        </vicomage_color_config>
+    </default>
+</config>

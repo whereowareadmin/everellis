@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <block>
+    <item>
+      <title><![CDATA[Block Featured Sidebar]]></title>
+      <identifier><![CDATA[block_featured_sidebar]]></identifier>
+      <content><![CDATA[<div class="section-featured-sidebar section-product-sidebar">
+{{widget type="Vicomage\Multiwidget\Block\Widget" title="Featured Items" identifier="featured-items" status="1" widget_product_type="category" category_ids="7" conditions_encoded="a:1:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]]" product_category_collection="random" category_template="widget/category/default-list.phtml" limit="8" slide="1" vertical="false" infinite="false" autoplay="false" arrows="true" dots="false" speed="300" autoplayspeed="3000" rows="4" width-image="300" height-image="300" padding="15" mobile="1" portrait="1" landscape="1" tablet="1" notebook="1" desktop="1" visible="1"}}
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Footer Top]]></title>
+      <identifier><![CDATA[block_footer_top_home1]]></identifier>
+      <content><![CDATA[<div class="footer-newletter-content">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-mobile-12">
+				<h3 class="block-title">SIGN UP NOW<span>yahoo!!</span></h3>
+				<p class="newsletter-intro">Get 25% off on your first purchase and get more news &amp; promotions from us.</p>
+				{{block class="Magento\Newsletter\Block\Subscribe" name="footer.newsletter" template="subscribe_footer.phtml"}}
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Custom Block Tab]]></title>
+      <identifier><![CDATA[custom_block_tab]]></identifier>
+      <content><![CDATA[<table class="table table-sizing-guide">
+    <thead>
+        <tr>
+            <th colspan="6"><b>Clothing - Single Size Conversion (Continued)</b></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>UK</td>
+            <td>18</td>
+            <td>20</td>
+            <td>22</td>
+            <td>24</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>European</td>
+            <td>46</td>
+            <td>48</td>
+            <td>50</td>
+            <td>52</td>
+            <td>54</td>
+        </tr>
+        <tr>
+            <td>US</td>
+            <td>14</td>
+            <td>16</td>
+            <td>18</td>
+            <td>20</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Australia</td>
+            <td>8</td>
+            <td>10</td>
+            <td>12</td>
+            <td>14</td>
+            <td>16</td>
+        </tr>
+    </tbody>
+</table>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Footer Social]]></title>
+      <identifier><![CDATA[block_footer_social]]></identifier>
+      <content><![CDATA[<div class="social-list">
+			<ul class="list-inline">
+				<li><a href="#" class="social-link"><i class="fa fa-facebook"><span class="hidden">facebook</span></i></a></li>
+						<li><a href="#" class="social-link"><i class="fa fa-twitter"><span class="hidden">twitter</span></i></a></li>
+						<li><a href="#" class="social-link"><i class="fa fa-google-plus"><span class="hidden">google</span></i></a></li>
+						<li><a href="#" class="social-link"><i class="fa fa-behance"><span class="hidden">behance</span></i></a></li>
+						<li><a href="#" class="social-link"><i class="fa fa-youtube-play"><span class="hidden">youtube</span></i></a></li>
+			</ul>
+		</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Footer Bottom]]></title>
+      <identifier><![CDATA[block_footer_bottom_home1]]></identifier>
+      <content><![CDATA[<div class="footer-bottom-border">
+    <div class="footer-bottom-content">
+		<div class="footer-logo col-sm-2">
+			<a href="#"><img src="{{media url="wysiwyg/vicomage/footer/logo-footer.png"}}" alt="" /></a>
+		</div>
+		<small class="copyright col-sm-5">
+			<p>© 2017 <a href="#">Maxstore</a> <span>Vicomage</span>. All rights reserved</p>
+		</small>
+		<div class="footer-payment col-sm-5">
+			<img src="{{media url="wysiwyg/vicomage/footer/footer-payment.png"}}" alt="" />
+		</div>
+	</div>                                           
+ </div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Home 12 Slide]]></title>
+      <identifier><![CDATA[block_home12_slide]]></identifier>
+      <content><![CDATA[{{widget type="Vicomage\Slider\Block\Widget\Slider" setIdentity="home12-slide"}}
+<div class="content-banner">
+	<div class="container-none">
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 column-left no-padding">
+			<div class="banner-inner banner-margin-bottom">
+				<div class="block-image effect"><a class="image-wrap" href="#"><img class="img-responsive" src="{{media url="wysiwyg/vicomage/static/home12/banner1.jpg"}}" alt="icon4" ></a></div>
+				<div class="text-content text-content-center">	
+					<p class="p-text">100% Pure</p>
+					<h3 class="p-name">Best Quality</h3>					
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 column-center no-padding">
+			<div class="banner-inner banner-margin-bottom">
+				<div class="block-image effect"><a class="image-wrap" href="#"><img class="img-responsive" src="{{media url="wysiwyg/vicomage/static/home12/banner2.jpg"}}" alt="icon4" ></a></div>
+				<div class="text-content text-content-center">	
+					<p class="p-text">Taste It</p>
+					<h3 class="p-name">Best Choice</h3>					
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 column-right no-padding">
+			<div class="banner-inner banner-margin-bottom">
+				<div class="block-image effect"><a class="image-wrap" href="#"><img class="img-responsive" src="{{media url="wysiwyg/vicomage/static/home12/banner3.jpg"}}" alt="icon4" ></a></div>
+				<div class="text-content text-content-center">
+					<h3 class="p-name">Join us now!</h3>	
+					<p class="p-text">Club Members</p>			
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Footer Bottom Home12]]></title>
+      <identifier><![CDATA[block_footer_bottom_home12]]></identifier>
+      <content><![CDATA[<div class="footer-bottom-border">
+    <div class="footer-bottom-content">
+		<div class="footer-logo col-sm-2">
+			<a href="#"><img src="{{media url="wysiwyg/vicomage/footer/logo-footer-12.png"}}" alt="" /></a>
+		</div>
+		<small class="copyright col-sm-5">
+			<p>© 2017 <a href="#">Maxstore</a> <span>Vicomage</span>. All rights reserved</p>
+		</small>
+		<div class="footer-payment col-sm-5">
+			<img src="{{media url="wysiwyg/vicomage/footer/footer-payment.png"}}" alt="" />
+		</div>
+	</div>                                           
+ </div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Footer Middle Home12]]></title>
+      <identifier><![CDATA[block_footer_middle_home12]]></identifier>
+      <content><![CDATA[<div class="footer-middle-content footer-middle-home8">
+	<div class="footer-left-link col-lg-9 col-md-8 col-sm-12 col-xs-12">
+		<div class="block-content block-content-statick toggle-content">
+			<ul class="bullet">
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Delivery</a></li>
+				<li><a href="#">Returns</a></li>
+				<li><a href="#">FAQs</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer-right-link col-lg-3 col-md-4 col-sm-12 col-xs-12">
+		<div class="social-list">
+			<ul class="list-inline">
+				<li><a href="#" class="social-link"><i class="fa fa-twitter"><span class="hidden">twitter</span></i></a></li>
+				<li><a href="#" class="social-link"><i class="fa fa-facebook"><span class="hidden">facebook</span></i></a></li>
+				<li><a href="#" class="social-link"><i class="fa fa-instagram"><span class="hidden">instagram</span></i></a></li>
+				<li><a href="#" class="social-link"><i class="fa fa-pinterest"><span class="hidden">pinterest</span></i></a></li>
+			</ul>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Cms Static Content Home 12]]></title>
+      <identifier><![CDATA[cms-static-content-home12]]></identifier>
+      <content><![CDATA[<div class="testimonial-wrapper-content" >
+	<div class="testimonial-content bg-parallax" style="background-image: url('{{media url="wysiwyg/vicomage/static/home12/bg-testimonial.jpg"}}')">
+	{{widget type="Vicomage\Testimonial\Block\Testimonial" enabled="1" title="Testimonial" template="Vicomage_Testimonial::testimonial.phtml" slide="1" vertical="false" infinite="false" autoplay="false" arrows="true" dots="true" fade="false" rows="1" speed="300" padding="15" mobile="1" portrait="1" landscape="1" tablet="1" notebook="1" desktop="1" visible="1"}}
+	</div>
+</div>
+<div class="section section-blogs latest-home">
+	<div class="container">
+		<h4 class="title_block">Latest News</h4>
+		<div class="des-text">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum scelerisque risus lacus, vitae vehicula nisl<br>rhoncus vitae. Sed consectetur sapien velit</p>
+		</div>
+		<div class="section-blogs-wrapper">
+			{{widget type="Vicomage\Blog\Block\Widget\Recent" title="Latest News" number_of_posts="6" show_thumbnail="1" thumbnail_width="240" thumbnail_height="180" show_short_content="1" limit_characters_short_content="100" view_as="slide" vertical="false" infinite="true" autoplay="false" arrows="true" dots="false" speed="300" autoplaySpeed="3000" padding="15" rows="1" mobile="1" portrait="1" landscape="2" tablet="2" notebook="3" desktop="3" visible="3"}}
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+  </block>
+</root>

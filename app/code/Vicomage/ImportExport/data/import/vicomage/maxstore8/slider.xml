@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <slider>
+    <item>
+      <name><![CDATA[Home8 Slide]]></name>
+      <identity><![CDATA[home8-slide]]></identity>
+      <slider_params><![CDATA[{"1":{"image":"\/s\/l\/slide1.png","position":"1","url":"","description":"<div class=\"slide-caption slide-caption-center\">\r\n\t<div class=\"text-slide text-slide2\">\r\n\t\t<h2 class=\"caption1\">eat well # life fresh!<\/h2>\r\n\t\t<h2 class=\"caption2\">Fresh food for your life<\/h2>\r\n\t\t<h3 class=\"caption4\"><a class=\"btn-shop\" href=\"#\" tabindex=\"0\">Shop Now<\/a><a class=\"view-look\" href=\"#\" tabindex=\"0\">View Recipes<\/a><\/h3>\r\n\t<\/div>\r\n<\/div>"},"2":{"image":"\/s\/l\/slide2.png","position":"1","url":"","description":"<div class=\"slide-caption slide-caption-center\">\r\n\t<div class=\"text-slide text-slide2\">\r\n\t\t<h2 class=\"caption1\">eat well # life fresh!<\/h2>\r\n\t\t<h2 class=\"caption2\">Fresh food for your life<\/h2>\r\n\t\t<h3 class=\"caption4\"><a class=\"btn-shop\" href=\"#\" tabindex=\"0\">Shop Now<\/a><a class=\"view-look\" href=\"#\" tabindex=\"0\">View Recipes<\/a><\/h3>\r\n\t<\/div>\r\n<\/div>"},"3":{"image":"\/s\/l\/slide3.png","position":"1","url":"","description":"<div class=\"slide-caption slide-caption-center\">\r\n\t<div class=\"text-slide text-slide2\">\r\n\t\t<h2 class=\"caption1\">eat well # life fresh!<\/h2>\r\n\t\t<h2 class=\"caption2\">Fresh food for your life<\/h2>\r\n\t\t<h3 class=\"caption4\"><a class=\"btn-shop\" href=\"#\" tabindex=\"0\">Shop Now<\/a><a class=\"view-look\" href=\"#\" tabindex=\"0\">View Recipes<\/a><\/h3>\r\n\t<\/div>\r\n<\/div>"}}]]></slider_params>
+      <width><![CDATA[1920]]></width>
+      <height><![CDATA[650]]></height>
+      <number><![CDATA[3]]></number>
+      <status><![CDATA[1]]></status>
+      <navigation><![CDATA[1]]></navigation>
+      <pagercontrol><![CDATA[1]]></pagercontrol>
+      <lazyload><![CDATA[1]]></lazyload>
+      <speed><![CDATA[]]></speed>
+      <auto_play><![CDATA[0]]></auto_play>
+      <autoplay_speed><![CDATA[]]></autoplay_speed>
+      <stop_on_hover><![CDATA[0]]></stop_on_hover>
+      <loop><![CDATA[0]]></loop>
+    </item>
+  </slider>
+</root>
