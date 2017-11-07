@@ -795,7 +795,7 @@
                         <field id="enable_header_color">1</field>
                     </depends>
                 </field>
-				
+
             </group>
 
             <group id="config_color_content" translate="label" type="text" sortOrder="12" showInDefault="1" showInWebsite="1" showInStore="1">

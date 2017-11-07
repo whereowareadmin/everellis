@@ -7,11 +7,9 @@
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
                             <resource id="Vicomage_Quickview::QuickviewSettings" title="Vicomage Quickview" sortOrder="260" />
+                            <resource id="Vicomage_Quickview::vicomage_setting" sortOrder="260" title="Quickview Setting" />
                         </resource>
                     </resource>
-                </resource>
-                <resource id="Vicomage_Core::vicomage_manage" >
-                    <resource id="Vicomage_Quickview::vicomage_setting" sortOrder="60" title="Quickview" />
                 </resource>
             </resource>
         </resources>

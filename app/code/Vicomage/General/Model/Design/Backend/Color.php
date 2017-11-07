@@ -30,6 +30,17 @@ class Color extends ArraySerialized
     }
 
     /**
+     * @return void
+     */
+    protected function _afterLoad()
+    {
+        $value = $this->getValue();
+        if (!is_array($value)) {
+            $this->setValue(empty($value) ? false : unserialize($value));
+        }
+    }
+
+    /**
      * Validate value
      *
      * @return $this

@@ -261,7 +261,7 @@ $_product_label_config = $this->helper('Vicomage\General\Helper\Data')->getConfi
 										<?php endif; ?>
 									</div>
 									<?php if($_category_config['addtowishlist'] || $_category_config['addtocompare']): ?>
-									<div data-role="add-to-links" class="actions-secondary"<?php echo strpos($pos, $viewMode . '-secondary') ? $position : ''; ?>>
+									<div data-role="add-to-links" class="actions-secondary">
 										<?php if($_category_config['addtowishlist']): ?>
 											<?php if ($this->helper('Magento\Wishlist\Helper\Data')->isAllow()): ?>
 												<a href="#"
