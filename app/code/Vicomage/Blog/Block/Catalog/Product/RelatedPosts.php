@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright © 2016 Ihor Vansach (ihor@Vicomage.com). All rights reserved.
+ * Copyright Â© 2016 Ihor Vansach (ihor@Vicomage.com). All rights reserved.
  * See LICENSE.txt for license details (http://opensource.org/licenses/osl-3.0.php).
  *
  * Glory to Ukraine! Glory to the heroes!
@@ -37,7 +37,7 @@ class RelatedPosts extends \Vicomage\Blog\Block\Post\PostList\AbstractList
 
         $product = $this->getProduct();
         $this->_postCollection->getSelect()->joinLeft(
-            ['rl' => $product->getResource()->getTable('Vicomage_blog_post_relatedproduct')],
+            ['rl' => $product->getResource()->getTable('vicomage_blog_post_relatedproduct')],
             'main_table.post_id = rl.post_id',
             ['position']
         )->where(
