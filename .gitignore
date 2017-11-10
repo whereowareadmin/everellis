@@ -43,8 +43,8 @@ atlassian*
 /pub/media/captcha/*
 /pub/static/*  
 !/pub/static/.htaccess
- 
-/var/*
+!/vendor/*
+/var/magento
 !/var/.htaccess
 /vendor/*
 !/vendor/.htaccess
