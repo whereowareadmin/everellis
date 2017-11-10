@@ -22,6 +22,7 @@ atlassian*
 /lib/internal/flex/varien/.project
 /lib/internal/flex/varien/.settings
 /node_modules
+
 /.grunt
 
 /pub/media/*.*
@@ -44,7 +45,7 @@ atlassian*
 /pub/static/*  
 !/pub/static/.htaccess
 !/vendor/*
-/var/magento
+!/vendor/magento
 !/var/.htaccess
 /vendor/*
 !/vendor/.htaccess
