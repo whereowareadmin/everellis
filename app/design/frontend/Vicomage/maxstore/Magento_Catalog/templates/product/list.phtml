@@ -16,6 +16,9 @@ use Magento\Framework\App\Action\Action;
  */
 ?>
 <?php
+$mYobjectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$mYcustomerSession = $mYobjectManager->get('Magento\Customer\Model\Session');
+
 $_productCollection = $block->getLoadedProductCollection();
 $_helper = $this->helper('Magento\Catalog\Helper\Output');
 $_imagehelper = $this->helper('Magento\Catalog\Helper\Image');
@@ -195,7 +198,10 @@ $_product_label_config = $this->helper('Vicomage\General\Helper\Data')->getConfi
                         <?php endif; ?>
 						
 						<?php if($_category_config['product_price']): ?>
+                                                    <?php if($mYcustomerSession->isLoggedIn()):?>
 							<?php echo $block->getProductPrice($_product) ?>
+                                                        <?php endif; ?>
+							
                         <?php endif; ?>
                         <?php echo $block->getProductDetailsHtml($_product); ?>
 						<?php if($viewMode == 'grid' ): ?>
@@ -208,14 +214,16 @@ $_product_label_config = $this->helper('Vicomage\General\Helper\Data')->getConfi
 											<form data-role="tocart-form" action="<?php /* @escapeNotVerified */ echo $postParams['action']; ?>" method="post">
 												<input type="hidden" name="product" value="<?php /* @escapeNotVerified */ echo $postParams['data']['product']; ?>">
 												<input type="hidden" name="<?php /* @escapeNotVerified */ echo Action::PARAM_NAME_URL_ENCODED; ?>" value="<?php /* @escapeNotVerified */ echo $postParams['data'][Action::PARAM_NAME_URL_ENCODED]; ?>">
-												<?php echo $block->getBlockHtml('formkey')?>
+												<?php echo $block->getBlockHtml('formkey')  /*?>
 												<button type="submit"
 														title="<?php echo $block->escapeHtml(__('Add to Cart')); ?>"
 														class="action tocart primary">
 													<i>+ </i><span><?php echo $block->escapeHtml(__('Add to Cart')); ?></span>
 												</button>
 											</form>
-										<?php else: ?>
+										<?php */ ?> 
+                                                                                    
+                                                                                    <?php else: ?>
 											<?php if ($_product->getIsSalable()): ?>
 												<div class="stock available"><span><?php /* @escapeNotVerified */ echo __('In stock') ?></span></div>
 											<?php else: ?>
@@ -245,14 +253,19 @@ $_product_label_config = $this->helper('Vicomage\General\Helper\Data')->getConfi
 											<form data-role="tocart-form" action="<?php /* @escapeNotVerified */ echo $postParams['action']; ?>" method="post">
 												<input type="hidden" name="product" value="<?php /* @escapeNotVerified */ echo $postParams['data']['product']; ?>">
 												<input type="hidden" name="<?php /* @escapeNotVerified */ echo Action::PARAM_NAME_URL_ENCODED; ?>" value="<?php /* @escapeNotVerified */ echo $postParams['data'][Action::PARAM_NAME_URL_ENCODED]; ?>">
-												<?php echo $block->getBlockHtml('formkey')?>
+												<?php echo $block->getBlockHtml('formkey') /* ?>
+                                                                                                
+                                                                                                
+                                                                                                
 												<button type="submit"
 														title="<?php echo $block->escapeHtml(__('Add to Cart')); ?>"
 														class="action tocart primary">
 													<span><?php echo $block->escapeHtml(__('Add to Cart')); ?></span>
 												</button>
+                                                                                                
+                                                                                              
 											</form>
-										<?php else: ?>
+										<?php */ ?> <?php  else: ?>
 											<?php if ($_product->getIsSalable()): ?>
 												<div class="stock available"><span><?php /* @escapeNotVerified */ echo __('In stock') ?></span></div>
 											<?php else: ?>

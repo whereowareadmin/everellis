@@ -2,6 +2,11 @@
 // @codingStandardsIgnoreFile
 
 /** @var $block \Magento\Catalog\Block\Product\View */
+
+$mYobjectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$mYcustomerSession = $mYobjectManager->get('Magento\Customer\Model\Session');
+
+
 ?>
 <?php $_product = $block->getProduct(); ?>
 <?php $buttonTitle = __('Add to Cart'); ?>
@@ -9,6 +14,7 @@
     <div class="box-tocart">
         <div class="fieldset">
             <?php if ($block->shouldRenderQuantity()): ?>
+             <?php if($mYcustomerSession->isLoggedIn()):?>
                 <div class="field qty">
                     <label class="label" for="qty"><span><?php /* @escapeNotVerified */ echo __('Qty') ?></span></label>
                     <div class="control">
@@ -22,14 +28,17 @@
                         />
                     </div>
                 </div>
+                <?php endif; ?>
             <?php endif; ?>
             <div class="actions">
+           <?php if($mYcustomerSession->isLoggedIn()):?>
                 <button type="submit"
                         title="<?php /* @escapeNotVerified */ echo $buttonTitle ?>"
                         class="action primary tocart"
                         id="product-addtocart-button">
                     <span><?php /* @escapeNotVerified */ echo $buttonTitle ?></span>
                 </button>
+              <?php endif; ?>
                 <?php echo $block->getChildHtml('', true) ?>
             </div>
         </div>
